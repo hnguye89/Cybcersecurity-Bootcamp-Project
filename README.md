@@ -8,6 +8,9 @@ These files have been tested and deploy the Elk server through Linux and Azure. 
 
 Playbook1: pentest.yml 
 
+
 Playbook2: install-elk.yml 
+[install-elk(yml).txt](https://github.com/hnguye89/Cybcersecurity-Bootcamp-Project/files/6666393/install-elk.yml.txt)
+
 
 Playbook3: file-playbook.yml
