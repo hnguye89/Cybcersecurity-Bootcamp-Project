@@ -4,13 +4,13 @@ Before you read this file, I made a typo on the name of this repository. It shou
 The diagram depict how the virtual machines are connected into the Elk server within the ansible container after the Elk server is being deployed. The diagram shown below:  
 ![Project1_Diagram](https://user-images.githubusercontent.com/77870466/122309043-92bdbd00-cedb-11eb-96ee-e81d9eee9202.jpg)
 
-These files have been tested and deploy the Elk server through Linux and Azure. Some portions of the playbook file may be used to install only certain pieces, such as Filebeat. 
+These files have been tested and deploy the Elk server through Linux and Azure. Some portions of the playbook file may be used to install only certain pieces, such as Filebeat. The files are provided in the Ansible folder. 
 
-Playbook1: pentest.yml 
+Playbook1: pentest.yml: 
 
 
-Playbook2: install-elk.yml 
-[install-elk(yml).txt](https://github.com/hnguye89/Cybcersecurity-Bootcamp-Project/files/6666393/install-elk.yml.txt)
+Playbook2: install-elk.yml: This is self-expanatory which install the Elk server. 
+
 
 
 Playbook3: file-playbook.yml
