@@ -1,7 +1,3 @@
-# Notes_Player_Dealer_Correlation
-# Author: Luke Vassallo
-# Date: Saturday, 1 August 2020
-
 # 1. Summary of findings
 
 1. Processing the player data was made a little easier by appending the month and day to the Roulette_Loss data file
