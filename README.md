@@ -65,7 +65,26 @@ Summary of Access Policies:
 # Usage Instruction 
 
 ## Filebeat/Metricbeat 
-Filebeat allow us to collect and ships logs from VMs running the filebeat. Metricbeat collects and ships system metrics from the operating system and services of VMS running the metric beat. 
+Filebeat allow us to collect and ships logs from VMs running the filebeat. Metricbeat collects and ships system metrics from the operating system and services of VMS running the metric beat. The targeted machines are Web-1 and Web-2. 
+
+## How to use Playbooks 
+In order to use the playbook, you need to have Ansible container to be configured. First copy the playbook files to Ansible Docker Container and then update the ansible hosts file /etc/ansible/hosts to include: 
+
+[webservers]
+#alpha.example.org
+#beta.example.org
+#192.168.1.100
+#192.168.1.110
+10.0.0.5 ansible_python_interpreter=/usr/bin/python3
+10.0.0.6 ansible_python_interpreter=/usr/bin/python3
+
+[elk]
+# List the IP address of your ELK server
+# There should only be one IP address
+10.1.0.4 ansible_python_interpreter=/usr/bin/python3
+
+Make sure to update the Ansible config file /etc/ansible/ansible.cfg and set the remote_user parameter to webservers's admin user. 
+
 
 ## Running the Playbooks: After the creating the playbooks, you may acces to Kibana. 
 1. Start an ssh session with the Jump Box ~$ ssh sysadmin@<Jump Box Public IP>
