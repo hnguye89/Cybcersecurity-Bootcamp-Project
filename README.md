@@ -1,7 +1,7 @@
 # Elk Stack Deployment
 
 
-# A Description of Te Deployment
+# A Description of The Deployment
 
 The diagram depict how the virtual machines are connected into the Elk server within the ansible container after the Elk server is being deployed. The diagram shown below:  
 ![Project1_Diagram](https://user-images.githubusercontent.com/77870466/122309043-92bdbd00-cedb-11eb-96ee-e81d9eee9202.jpg)
@@ -36,8 +36,7 @@ After successfully configuring the ELK instances, it will show on the "docker ps
 
 Integrating an Elk server allows users to easily monitor vulnerable VMs for changes to the configuration and system files. 
 * Filebeat is used to monitor logs/files. 
-* Metric 
-
+* Metricbeat is used to collect operating system and service statistics from VMs.
 
 | Name    | Function   | IP Address | Operating System 
 | ------------- |:-------------:| :-------:| :-------: | 
