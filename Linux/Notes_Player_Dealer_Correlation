@@ -1,15 +1,15 @@
 # 1. Summary of findings
 
-1. Processing the player data was made a little easier by appending the month and day to the Roulette_Loss data file
+1. Processing the player data was made little easier by appending the month and day to the Roulette_Loss data file
 
 2. It was clear from observing the contents of the Roulette_Loss file that Mylie Schmidt was the rogue player as she was at the table whenever a loss occurred.  Losses were identified by grepping out negative dollar values from the win_loss data files.
 
 3. Moving to the Dealer Schedules, I made life a little easier by making a single CSV data file to work with, appending the month and date to the start of each line using sed.  This file is called Normalised_Dealer_Schedule
 
 4. With the dealer schedule data normalised and made complete with the date, I created a script called Dealer_Working_During_Losses.sh that accepts three arguments. 
-	a. The month and date <MMDD>
-	b. The hour of the day <HH>
-	c. Morning or Afternoon <AM | PM>
+	a. The month and date 
+	b. The hour of the day
+	c. Morning or Afternoon
   
   This scipt returns the month, date, time, am|pm and the name of the roulette dealer working at the date/time specified as input
 
