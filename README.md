@@ -27,7 +27,7 @@ Playbook3: filebeat-playbook.yml: installing and launching filebeat. This yml fi
 * Enables and configures the system module 
 * Configures and launches Filebeat 
 
-After successfully configuring the ELK instances: 
+After successfully configuring the ELK instances, it will show on the "docker ps" list: 
 
 ![fast_n_furious](https://user-images.githubusercontent.com/77870466/122321810-7a0cd180-cef2-11eb-862a-293700d74d83.jpg)
 
